@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    
+    background: url("https://images.wallpaperscraft.com/image/single/road_marking_cloudy_124093_1280x720.jpg");
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;;
+  }
+  
+  label {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 30%;
+    padding: 10px;
+    color: rgb(0, 0, 255);
+    background-color: rgb(224, 224, 179);
+    font-size: 20px;
+  }
+  
+  #resultContainer {
+    max-height: 250px;
+    overflow-y: auto;
+  }
+  
+  #resultContainer p {
+    margin: 5px 0;
+    font-size: 18px;
+    color:antiquewhite;
+    cursor: pointer;
+  }
+  
